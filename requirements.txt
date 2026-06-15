@@ -1,0 +1,23 @@
+# --- Interfejs graficzny (GUI) ---
+streamlit>=1.33.0
+
+# --- Model CLIP do rozpoznawania roślin ze zdjęć ---
+torch>=2.2.0
+transformers>=4.40.0
+pillow>=10.0.0
+
+# --- RAG: embeddingi + baza wektorowa ---
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+numpy>=1.26.0
+
+# --- Model jezykowy (LLM) i agent AI ---
+openai>=1.30.0
+
+# --- Wyszukiwanie informacji w internecie ---
+google-search-results>=2.4.2   # biblioteka SerpAPI
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# --- Konfiguracja (wczytywanie kluczy API z pliku .env) ---
+python-dotenv>=1.0.0

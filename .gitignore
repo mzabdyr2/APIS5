@@ -1,0 +1,21 @@
+# Klucze API i sekrety
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Cache modeli i danych
+.cache/
+*.faiss
+data/cache/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Systemowe
+.DS_Store
